@@ -1,0 +1,328 @@
+/* header */
+
+#banniere_image
+{
+width: 100%;
+height:130px;
+background: #63547b;
+}
+
+#banniere_image p 
+{ margin-top: 0;
+}
+ 
+
+#logo
+{ 
+padding-left: 40%;
+}
+
+
+
+body
+{
+Background: #dad3e1;
+width: 100%;
+margin:0;
+padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+
+/* Navigation */
+
+nav
+{
+  width: 100%;
+  list-style: none;
+  Background: #dad3e1;
+ display: inline-block;
+    text-align: center;
+}
+
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    background: #dad3e1;
+    text-align: center;
+    display: inline;
+    margin-right: 40px ;
+    padding:0px 40px;
+
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #ae7d9e;
+    padding-bottom: 3px;
+    text-decoration: none;
+	
+}
+
+nav a:hover
+{
+    color: #5b4b5c;
+    border-bottom: 1px solid #885c6e;
+}
+
+
+
+
+.sidebar-picto-mail {
+    margin: 0px auto 1em;
+}
+
+.align-center {
+    text-align: center;
+    margin: 0px auto;
+}
+
+img {
+    display: inline-block;
+}
+
+#sidebar h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.sidebar-mail {
+    font-size: 1em;
+    display: inline-block;
+    padding: 1em 0px;
+    margin: 0px auto 1.5em;
+    text-decoration: none;
+    color: #BEBEBE;
+    font-style: italic;
+    background: url('../images/layout/footer/spacer-footer.png') repeat-x scroll left top, url('../images/layout/footer/spacer-footer.png') repeat-x scroll left bottom transparent;
+}
+
+.sidebar-list {
+    background: url('images/monstre_09.gif') no-repeat scroll 50% 70% transparent;
+    padding-bottom: 270px;
+}
+
+.sidebar-list li {
+    margin: 20px 1em 10px 0px;
+    width: 58px;
+    height: 40px;
+    
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+}
+p, li, td, th, textarea, caption, pre {
+    font-size: 0.9em;
+}
+p, li, td, th, textarea, caption, pre {
+    line-height: 1.4em;
+}
+
+.sidebar-list li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#sidebar {
+    background: url(images/sidebare.gif) repeat-y scroll 0% 0% transparent;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1) inset, 0px -5px 5px 0px rgba(0, 0, 0, 0.08) inset, 0px 5px 5px 0px rgba(0, 0, 0, 0.08) inset, 0px -5px 10px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    display: inline;
+    float: left;
+    width: 272.917px;
+    padding: 55px 0px 0px;
+    margin: 0px 0px 2em;
+}
+#sidebar {
+    color: #BEBEBE;
+}
+
+
+#me-contacter {
+    padding-left: 40px;
+    display: inline;
+    float: left;
+    width: 596.25px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+#me-contacter h1 {
+    font-size: 2.4em;
+    color: #2A2A2A;
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#me-contacter p {
+    font-size: 1em;
+    color: #2A2A2A;
+}
+
+#me-contacter form {
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+    margin: 0px auto;
+}
+
+élément {
+    display: none;
+}
+
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.input-group:nth-child(2n+1) {
+    margin-right: 0px;
+}
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.input-group:nth-child(2n+1) {
+    margin-right: 0px;
+}
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.textarea-group {
+    margin: 1em 0px;
+    clear: both;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+}
+
+label {
+    display: block;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+}
+
+input[type="text"], input[type="button"], input[type="password"], input[type="email"], textarea {
+    background: none repeat scroll 0% 0% #EAEAEA;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #D8D9D9;
+    outline: medium none;
+}
+
+.input-group > input {
+    width: 245px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+label span {
+    color: #deb2bb;
+}
+
+.input-group:nth-child(2n+1) > label {
+    margin: 0px 0px 0px 9px !important;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+}
+.input-group:nth-child(2n+1) > input {
+    float: right;
+}
+
+#page-contact input[type="submit"] {
+    float: right;
+    margin-right: 15px;
+    background: url('images/rose4_06.gif') no-repeat scroll left top transparent;
+    width: 150px;
+    height: 85px;
+    border: 0px none;
+    outline: 0px none;
+}
+#top-link {
+    position: fixed;
+    z-index: 99999;
+    bottom: 20px;
+    right: 20px;
+    width: 79px;
+    height: 94px;
+    background: url('../images/book-single/sprite-bouton-retour-haut.png') no-repeat scroll 0px 1px transparent;
+}
+
+/* footer */
+
+* footer */
+
+
+.navi
+{
+background: #5d4971;
+width: 100%;
+  list-style: none;
+  display: inline-block;
+    text-align: center;
+padding-top : 20px;
+padding-bottom : 20px;
+
+}
+
+.navi li
+{ text-align: center;
+    display: inline;
+    margin-right: 40px ;
+    padding:0px 40px;
+
+}
+
+.navi a
+{
+font-size: 1.3em;
+    color: #41334e;
+   
+    text-decoration: none;
+
+}
+
+
+footer
+{
+color: #7a658e;
+background: #5d4971;
+text-align:center;
+}
+
+
+
+
+
