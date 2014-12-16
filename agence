@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Webaxa</title>
+<link rel="stylesheet" href="agence.css" />
+</head>
+
+
+
+
+
+<header>
+<div id="bloc_page">
+
+		<div id="banniere_image">
+			<p>
+				 <img src="images/logo.png" alt="Logo du site" id="logo" />
+
+			       <nav>
+				   
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="presentation.html">Présentation</a></li>
+					<li><a href="crea.html">Book</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+					
+					
+				</ul>
+			</nav>
+					
+			</p>
+			
+			
+			
+			
+		</div>
+	
+		</div>
+	</header>
+	
+
+	
+
+	<body>
+		
+
+
+
+<div class="global">
+
+		<article>
+		
+		<div class="banner"><img src="images/site.gif" alt=" site" id="site" /></div>
+			<h3>Site internet</h3>
+			
+			<p>             
+Création de site internet sur mesure.
+Site d’entreprise, blog, E-commerce.
+Utilisation Html5, Css3, Php, Jquery...
+Site responsive, accessible sur tablette 
+et smartphone.
+
+
+
+
+</p>
+			<p>
+				<a href="http://arrignon-lucie.com/presentation.html#etudiante" class="bouton_rouge"> En savoir +</a>
+			</p>
+		</article>
+
+		
+		<aside>
+		<img src="images/tablette.gif" alt=" tablette" id="tablette" />
+			<h3> Tablette et smartphone</h3>
+			
+			<p>     
+25% des internautes consultent internet
+via leurs tablettes ou smartphones!
+Profiter en ! Nous vous proposons un
+ site consultable sur tout support pour
+accroitre encore votre visibilitée.
+
+</p>
+			<p>
+				<a href="http://arrignon-lucie.com/presentation.html#que-fait-elle" class="bouton_rouge">En savoir +</a>
+			</p>
+		</aside>
+		
+		
+		
+		
+		<div class="bloc">
+		<img src="images/referencement.gif" alt=" ref" id="ref" />
+			<h3>Référencement </h3>
+			
+			<p>             
+ 
+               
+Augmenter les visites sur votre site, 
+grâce à nos outils de référencement.
+Référencement naturel, annuaires ou 
+encore SEA, notre équipe est là, pour 
+améliorer la visibilité de votre site.
+
+
+
+ 
+
+</p>
+
+			<p>
+				<a href="http://arrignon-lucie.com/crea.html" class="bouton_rouge"> En savoir +</a>
+			</p>
+			</div>
+			
+			
+			<div class="bloc2">
+			<img src="images/pint.gif" alt=" print" id="print" />
+			
+			<h3>Print </h3>
+			
+			<p>             
+ 
+               
+Création de flyer, carte de visite 
+plaquette, affiche, brochures pour 
+des entreprises, des particuliers ou 
+encore des associations.
+
+
+ 
+
+</p>
+
+			<p>
+				<a href="http://arrignon-lucie.com/crea.html" class="bouton_rouge"> En savoir +</a>
+			</p>
+			</div>
+			
+			
+			</div>
+			
+		
+		
+		<section id="projets-recents">
+		
+        <h2 class="projets-recents ">Projets Récents</h2>
+
+       
+
+        <ul>
+          	 	
+		 	
+	    	 		<li>
+	 			<a href="/pages/realisations/webdesign_2013-52"><img src="images/image1.gif" alt=""></a>
+				<div class="description">
+					<a href="images/image1.gif"></a>	              <div class="text">
+	                <h4><a href="/realisations/webdesign_2013-52">Illustration</a></h4>
+	                <p class="small">Illustration réalisée pour un forum</p>
+	                <ul class="tags">
+	                  <li>
+	                  	<a href="/realisations/categorie/webdesign">#Illustration</a>	                  </li>
+	                </ul>
+	              </div>
+	            </div>
+	 		</li>
+		 	
+	    	 		<li>
+	 			<a href="/pages/realisations/ekol-39"><img src="images/image2.gif" alt=""></a>
+				<div class="description">
+					<a href="images/image2.gif"></a>	              <div class="text">
+	                <h4><a href="http://arrignon-lucie.com/images/site%20scroll2%20large.png">Listen</a></h4>
+	                <p class="small">Webdesign pour un site de musique</p>
+	                <ul class="tags">
+	                  <li>
+	                  	<a href="/realisations/categorie/illustration">#Webdesign</a>	                  </li>
+	                </ul>
+	              </div>
+	            </div>
+	 		</li>
+		 	
+	    	 		<li>
+	 			<a href="/pages/realisations/flyer_2013-51"><img src="images/image3.gif" alt=""></a>
+				<div class="description">
+					<a href="images/image3.gif"></a>	              <div class="text">
+	                <h4><a href="http://arrignon-lucie.com/images/portfolio.png">Webdesign portfolio</a></h4>
+	                <p class="small">Webdesign Portfolio</p>
+	                <ul class="tags">
+	                  <li>
+	                  	<a href="/realisations/categorie/print">#Webdesign</a>	                  </li>
+	                </ul>
+	              </div>
+	            </div>
+				
+	 		</li>
+		 	
+	     </ul>       
+		 </section>
+		 
+      <div class="about">
+		<div class="notreentreprise">
+		<h2 >Webaxa, c'est quoi?</h2> <h4> C’est une agence Web créative et innovante à votre service.</h4>
+		<p>Localisé à Montpellier, notre équipe composée d’expert en création de site internet, est à votre écoute.
+Nous créons des sites sur-mesure, adaptés aux besoins de chacun. Webaxa, est aussi spécialiste du Print,
+Du flyer à l’affiche en passant par la carte de visite, notre équipe réalise vos demandes rapidement et 
+selon vos souhaits.<p>
+
+</div>
+</div>
+
+
+
+
+<div class="contact">
+
+<section id="me-contacter">
+
+
+<div class="gauche">
+    <h1 class="me-contacter populaire">Contact</h1>
+    <p>
+      Un devis, une question?
+N’hésitez pas à nous contacter !
+
+Vous pouvez aussi nous joindre 
+par téléphone :
+06 52 34 75 19
+    </p>
+	</div>
+	
+	
+	<div class="droite">
+    <p class="align-center email-message">
+                </p>  
+    <form action="contact-handle.php" id="page-contact" method="post" accept-charset="utf-8"><div style="display:none;"><input name="_method" value="POST" type="hidden"></div>
+          <div class="input-group">
+           
+            <label for="ContactNom"></label><input name="data[Contact][nom]" maxlength="120" required="required" placeholder="Nom prénom..." id="ContactNom" type="text">          </div>
+
+			<div class="input-group">
+            
+             <input name="data[Contact][email]" maxlength="150" required="required" placeholder="Adresse Email..." label="" id="ContactEmail" type="email">          </div>
+
+          <div class="input-group">
+            
+            <label for="ContactTelephone"></label><input name="data[Contact][telephone]" maxlength="255" placeholder="Numéro de téléphone..." id="ContactTelephone" type="text">          </div>
+
+           <div class="textarea-group">
+            
+            <textarea name="data[Contact][message]" required="required" placeholder="Message..." rows="6" label="" id="ContactMessage"></textarea>          </div>
+    
+
+          <div class="submit"><input value="" type="submit"></div>
+      </form> 
+	  </div>
+	  </section>
+</div>
+		
+		
+		
+		
+
+		
+
+		
+
+	</body>
+
+	<footer>
+	
+	<div class=" conteneur ">
+			
+	   <div class="adresse"> 
+		<p>
+Notre Agence <br/>		
+Webaxa<br/>
+95 rue pomier layrargues<br/>
+BAL 98<br/>
+34090 Montpellier <br/>
+06 52 34 75 19<br/>
+</p>
+</div>
+		<p>
+			<div class="navi">
+	
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="presentation.html">Présentation</a></li>
+					<li><a href="crea.html">Book</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+					<li><a href="contact.html">Liens</a></li>
+					
+				</ul>
+			
+			</div>
+		</p>
+		
+		<div class="partage">
+		 <a target="_blank" class="external" href="https://twitter.com/meeialu"> <img src="images/twiiter.gif" > </a>
+		<a target="_blank" class="external" href="https://www.facebook.com/lucy.arrignon"> <img src="images/facebook.gif" > </a>
+	<a target="_blank" class="external" href="http://stars-glittering-eyes.tumblr.com/"> <img src="images/pintrest.gif" ></a>
+		</div>
+		
+		</div>
+		
+	</footer>
+
+
+
+
+</html>
+#que-fait-elle {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px 30px;
+display: inline-block;
+ color: #3a393a;
+text-align: center;
+font-family: Georgia;
+font-size: 12px;
+padding-top: 120px;
+}
+
+.wrap-que-fait-elle{
+text-align: justify;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+	width:555.83333px;
+	margin-bottom:20px
+
+}
+
+
+
+.book {
+
+ margin-left: 5%;
+    display: inline-block;  
+    width: 25%;  
+padding-top: 100px;
+    text-decoration: none;  
+    text-align:justify;
+    color: #3a393a;
+
+
+
+
+}
+
+.wrap-experience {
+width: 100%;
+    margin: 0px;
+    padding: 10px 0px 30px;
+display: inline-block;
+ color: #3a393a;
+text-align: center;
+font-family: Georgia;
+font-size: 12px;
+padding-top: 0px;}
+
+
+   
+
+
+#experience {
+text-align: justify;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+	width:555.83333px;
+	margin-bottom:50px
+
+}
+
+.competences {
+
+ margin-left: 15%;
+    display: inline-block;
+padding-top: 120px;
+    width: 25%;  
+ text-decoration: none;  
+    text-align:center;
+    color: #3a393a;
+
+
+
+
+}
+
+
+
+
+
+
+/* header */
+
+
+header{
+width: 100%;
+background:rgb(17,17,17);
+
+
+}
+
+
+
+#bloc_page
+{
+
+height:80px;
+background:rgb(17,17,17);
+width: 1100px;
+margin:0 auto;
+
+
+
+
+
+ }
+
+
+ 
+#banniere_image p
+{
+margin-top:0;
+margin:0;
+padding:0;
+}
+
+
+
+#logo
+{ 
+float: left;
+
+
+
+
+}
+
+
+
+
+/* Navigation */
+
+nav
+{
+  
+  list-style: none;
+  background:rgb(17,17,17);
+  text-align: center;
+  float:right;
+  margin-top:0;
+  
+ 
+
+}
+
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    background: rgb(17,17,17);
+    display: inline;
+    margin-right: 40px ;
+    padding:0px 20px;
+font-family:"Lucida Sans";
+line-height:120%;
+text-align:left;
+margin-top:0;
+}
+
+nav a
+{
+    font-size: 16px;
+  color:rgb(237,237,237);
+text-decoration: none;
+	
+}
+
+nav a:hover
+{
+    color: #00AAE9;
+    border-bottom: 1px solid #00AAE9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body */
+
+h3
+{
+text-align: center; 
+height: 30px;
+color: #3a393a;
+width: 60%;
+margin-left: 50px;
+padding-left: 0px;
+}
+
+.cv
+{
+padding-top: 20px;
+}
+
+.ground
+{
+padding-top:0%;
+position:absolute;
+width: 100% ;
+height: 340px;
+
+}
+
+
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+
+  
+
+
+body
+{
+
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#site{
+display: inline-block;  
+text-decoration: none;  
+text-align: justify;
+color: #3a393a;
+
+}
+
+
+
+
+article
+
+{
+
+    display: inline-block;  
+    width: 13%;  
+ text-decoration: none;  
+    text-align: justify;
+    color: #3a393a;
+    
+
+}
+
+aside
+
+{
+
+    margin-left: 5%;
+    display: inline-block;  
+    width: 13%;  
+    text-decoration: none;  
+    text-align:justify;
+    color: #3a393a;
+    
+}
+
+.bloc
+{
+    margin-left: 5%;
+    display: inline-block;  
+    width: 13%;  
+    text-decoration: none;  
+    text-align:justify;
+    color: #3a393a;
+
+    
+
+}
+
+.bloc2
+{
+    margin-left: 5%;
+    display: inline-block;  
+    width: 13%;  
+    text-decoration: none;  
+    text-align:justify;
+    color: #3a393a;
+
+    
+
+}
+
+.global
+{
+text-align: center;
+padding-top: 120px;
+background:rgb(250,250,250);
+width:100%;
+
+height:490px;
+
+
+}
+
+
+
+.sep
+{
+color: #b3adb8;
+text-align: center;
+padding-top: 7%;
+padding-bottom: 6%;
+
+}
+
+.sep2
+{
+color: #b3adb8;
+text-align: center;
+padding-top: 3%;
+padding-bottom: 6%;
+
+}
+
+
+#projets-recents {
+    background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;;
+text-align: center;
+background:rgb(0,170,233);
+width:100%;
+height:356px;
+border-color:rgb(0,170,233);
+border-width:2px;
+border-style:solid;
+
+
+   }
+
+p
+{
+font-family: Georgia;
+font-size: 12px;
+color:#000000
+font-family:"Myriad Pro";
+font-size:13px;
+line-height:135%;
+text-align:justify;
+
+}
+
+#experience h2 {
+ font-size: 1.5em;
+  width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px 300px;
+color: #3a393a;
+font-family: Arial;
+
+padding-bottom: 50px;
+
+
+}
+
+
+
+#projets-recents h2 {
+    font-size: 1.3em;
+  width: 300px;
+text-align : center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px 80px;
+color: #3a393a;
+font-family: Arial;
+ background: url('images/noeud.png') no-repeat scroll left center, url('images/noeud.png') no-repeat scroll right center transparent;
+
+}
+
+.populaire {
+    font-family: Arial;
+}
+
+#projets-recents > ul {
+    overflow: hidden;
+    padding-bottom: 1em;
+ padding-top: 0px;
+display: inline-block; 
+margin-left: 100px;
+
+
+}
+
+#projets-recents > ul > li {
+    position: relative;
+    display: block;
+    float:left;
+    height: 242px;
+    margin-right: 130px;
+    list-style: none outside none;
+    z-index: 1;
+    background: url('../images/layout/ombre-projets-recents.png') no-repeat scroll center bottom transparent;
+
+}
+
+#projets-recents > ul > li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#projets-recents > ul > li .description {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 231px;
+    height: 231px;
+    z-index: 2;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+
+}
+#projets-recents > ul > li .description, #portfolio-list > ul > li .description {
+    color: #FFF;
+}
+
+
+
+#projets-recents > ul > li .description{
+	position:absolute;
+	top:0;
+	left:0;
+	width:140px;
+	height:140px;
+	z-index:2;
+	-webkit-transition-property:all;
+	-moz-transition-property:all;
+	-o-transition-property:all;
+	transition-property:all;
+	-webkit-transition-timing-function:ease-in-out;
+	-moz-transition-timing-function:ease-in-out;
+	-o-transition-timing-function:ease-in-out;
+	transition-timing-function:ease-in-out;
+	-webkit-transition-duration:.4s;
+	-moz-transition-duration:.4s;
+	-o-transition-duration:.4s;
+	transition-duration:.4s
+}
+
+#projets-recents > ul > li .description a{
+	display:block;
+	width:100%;
+	height:100%
+}
+
+#projets-recents > ul > li .description .text{
+	padding:15px;
+	text-align:right;
+	position:absolute;
+	bottom:0;
+	right:0;
+	display:none
+}
+
+#projets-recents > ul > li .description .text a{
+	color:white;
+	text-decoration:none
+}
+
+#projets-recents > ul > li .description .text h4 a{
+	color:white !important;
+	text-decoration:none !important
+}
+
+#projets-recents > ul > li .description .text p{
+	font-style:italic;
+	color:white !important;
+	text-decoration:none !important
+}
+
+#projets-recents > ul > li .description .text ul.tags{
+	list-style:none;
+	font-style:italic;
+	margin-top:1em
+}
+
+#projets-recents > ul > li .description .text ul.tags li a{
+	color:#d29ebe !important;
+}
+
+#projets-recents > ul > li:hover .description{
+	
+	background:rgba(0,0,0,0.75)
+}
+
+#projets-recents > ul > li:hover .description .text{
+	display:block
+}
+
+
+
+.bouton_rouge
+{
+	color:#e292a0;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	
+}
+
+.notreentreprise{
+
+width: 884px;
+margin: 0 auto;
+padding-top: 30px;
+}
+
+
+h2{
+font-family:"Myriad Pro";
+font-size:33px;
+font-weight:bold;
+line-height:120%;
+color:rgb(1,25,49);
+text-align:left;
+}
+
+h4{
+font-family:"Myriad Pro";
+font-size:23px;
+line-height:120%;
+color:rgb(3,21,31);
+text-align:left;
+}
+
+.about{
+background:#ffffff;
+width:100%;
+height:278px;
+}
+
+
+/*contact*/
+
+
+
+p, li, td, th, textarea, caption, pre {
+    font-size: 0.9em;
+}
+p, li, td, th, textarea, caption, pre {
+    line-height: 1.4em;
+}
+
+.contact{
+
+background:rgb(21,93,122);
+width:100%;
+height:418px;
+
+}
+
+#me-contacter {
+    
+    margin: 0px auto;
+    width: 884px;
+	height:247px;
+	margin-top:90px;
+  background:rgb(21,93,122);
+  background:rgb(21,93,122);
+}
+
+#me-contacter h1 {
+    font-family:"Myriad Pro";
+font-size:34px;
+line-height:120%;
+color:rgb(214,214,214);
+text-align:left;
+}
+
+#me-contacter p {
+    font-size: 1em;
+    color: #ffffff;
+	background:rgb(21,93,122);
+}
+
+#me-contacter form {
+    width: 100%;
+}
+
+.droite{
+
+width:100%;
+height:237px;
+float: right;
+}
+
+.gauche{
+font-family:"Myriad Pro";
+font-size:17px;
+line-height:120%;
+text-align:left;
+float: left;
+
+}
+
+.align-center {
+    text-align: center;
+    margin: 0px auto;
+	
+}
+
+élément {
+    display: none;
+}
+
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.input-group:nth-child(2n+1) {
+    margin-right: 0px;
+}
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.input-group:nth-child(2n+1) {
+    margin-right: 0px;
+}
+.input-group {
+    margin: 0.5em 16px 0.5em 0px;
+    float: left;
+    width: 281px;
+}
+
+.textarea-group {
+    margin: 1em 0px;
+    clear: both;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+	
+}
+
+label {
+    display: block;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+}
+
+input[type="text"], input[type="button"], input[type="password"], input[type="email"], textarea {
+    background: none repeat scroll 0% 0% #EAEAEA;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #D8D9D9;
+    outline: medium none;
+}
+
+.input-group > input {
+    width: 245px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+label span {
+    color: #deb2bb;
+}
+
+.input-group:nth-child(2n+1) > label {
+    margin: 0px 0px 0px 9px !important;
+}
+
+#page-contact input, #page-contact textarea {
+    color: #6B6B6B !important;
+    font-family: "Trebuchet MS",sans-serif;
+    font-style: italic;
+}
+.input-group:nth-child(2n+1) > input {
+    float: right;
+}
+
+#page-contact input[type="submit"] {
+    float: right;
+    margin-right: 15px;
+    background: url('images/rose4_06.gif') no-repeat scroll left top transparent;
+    width: 150px;
+    height: 85px;
+    border: 0px none;
+    outline: 0px none;
+	
+}
+#top-link {
+    position: fixed;
+    z-index: 99999;
+    bottom: 20px;
+    right: 20px;
+    width: 79px;
+    height: 94px;
+    background: url('../images/book-single/sprite-bouton-retour-haut.png') no-repeat scroll 0px 1px transparent;
+}
+
+
+
+/* footer */
+
+
+
+footer
+{
+color: #F8F8F8;
+background:rgb(0,10,17);
+width:100%;
+height:258px;
+text-align:center;
+}
+
+
+footer p {
+color:#F8F8F8;
+width:100%;
+}
+
+
+
+.conteneur 
+{
+
+width: 884px;
+height:256px;
+margin:0 auto;
+}
+
+.adresse{
+float:left;
+display: inline-block;  
+width: 26%;  
+text-decoration: none;  
+color: #3a393a;
+margin-top: 50px;
+}
+
+
+.navi
+{
+background:rgb(0,10,17);
+width: 18%;
+list-style: none;
+text-align: center;
+padding-top : 20px;
+padding-bottom : 20px;
+display: inline-block;  
+text-decoration: none;  
+text-align:justify;
+color: #3a393a;
+margin-top:30px;
+margin-right:350px;
+
+
+}
+
+.navi li
+{ text-align: center;
+    list-style: none;
+   padding:0px 40px;
+
+}
+
+.navi a
+{
+font-size: 1em;
+color: #F8F8F8;
+text-decoration: none;
+
+}
+
+
+
+
+.partage{
+
+margin-top:-100px;
+margin-right:50px;
+background:rgb(0,10,17);
+float:right;
+display: inline-block;  
+width: 20%;  
+text-decoration: none;  
+text-align:justify;
+color: #3a393a;
+
+
+}
