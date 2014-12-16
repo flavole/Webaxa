@@ -604,8 +604,7 @@ text-align:left;
 }
 
 .droite{
-
-width:100%;
+    width: 50%;
 height:237px;
 float: right;
 }
@@ -616,7 +615,7 @@ font-size:17px;
 line-height:120%;
 text-align:left;
 float: left;
-
+width: 50%;
 }
 
 .align-center {
