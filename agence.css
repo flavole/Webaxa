@@ -245,6 +245,8 @@ aside {
     height: 490px;
 
 }
+
+
 .contour{
 background:rgb(250,250,250);
 border-color:rgb(224,225,229);
@@ -254,7 +256,7 @@ border-radius:100%;
 }
 
 .banner{
-margin-left:30%;
+margin:auto;
 padding: 9%;
 width:30%;
 background:rgb(250,250,250);
@@ -280,7 +282,7 @@ padding-left:18%;
 }
 
 #print{
-padding-left:10%;
+padding-left:18%;
 }
 
 .sep {
@@ -300,7 +302,7 @@ padding-left:10%;
 }
 
 #projets-recents {
-    background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;;
+    background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;
     text-align: center;
     background: rgb(0, 170, 233);
     width: 100%;
@@ -359,6 +361,7 @@ p {
     padding-top: 0px;
     display: inline-block;
     margin-left: 100px;
+	
 
 }
 
@@ -470,18 +473,34 @@ p {
 
 .bouton_rouge {
     color: #e292a0;
-    padding-bottom: 5px;
-    padding-top: 8px;
-    padding-left: 13%;
-    padding-right: 5px;
+    margin: auto;
+    display: block;
+	cursor: pointer;
+	
 
+}
+
+.bouton_rouge2 {
+    color: #e292a0;
+    margin: auto;
+display: block;
+	cursor: pointer;
+
+}
+
+.bouton_rouge :hover{
+
+ color: red;
+ cursor: pointer;
+  
 }
 
 .notreentreprise {
 
-    width: 884px;
+    width: 1150px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 4%;
+	
 }
 
 h2 {
@@ -499,6 +518,7 @@ h4 {
     line-height: 120%;
     color: rgb(3, 21, 31);
     text-align: left;
+	
 }
 
 .about {
