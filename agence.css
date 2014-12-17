@@ -68,6 +68,7 @@
 
 /* header */
 
+
 header {
     width: 100%;
     background: rgb(17, 17, 17);
@@ -241,7 +242,7 @@ aside {
     text-align: center;
     padding-top: 120px;
     background: rgb(250, 250, 250);
-    width: 100%;
+    width: calc(100% - 2px);
 
     height: 490px;
 
@@ -306,7 +307,7 @@ padding-left:18%;
     background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;
     text-align: center;
     background: rgb(0, 170, 233);
-    width: 100%;
+    width: calc(100% - 4px);
     height: 356px;
     border-color: rgb(0, 170, 233);
     border-width: 2px;
@@ -475,7 +476,7 @@ height: 100%;
 
 .bouton_rouge {
     color: #e292a0;
-    margin: auto;
+    margin: 28px auto;
     display: block;
 	cursor: pointer;
 	
@@ -484,7 +485,7 @@ height: 100%;
 
 .bouton_rouge2 {
     color: #e292a0;
-    margin: auto;
+    margin: 28px auto;
 display: block;
 	cursor: pointer;
 
@@ -814,7 +815,7 @@ footer p {
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 350px;
 
 }
