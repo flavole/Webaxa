@@ -259,21 +259,33 @@ par téléphone : <br/><p>
 	<div class="droite">
     <p class="align-center email-message">
                 </p>  
+				
     <form action="contact-handle.php" id="page-contact" method="post" accept-charset="utf-8"><div style="display:none;"><input name="_method" value="POST" type="hidden"></div>
 	
           <div class="contactinput-group input-group1">
             <input name="data[Contact][email]" maxlength="150" required="required" placeholder="Adresse Email..." label="" id="ContactEmail" type="email">          </div>
             
 
+			
+            
+
 			<div class="contactinput-group input-group3">
             
             
 <label for="ContactNom"></label><input name="data[Contact][nom]" maxlength="120" required="required" placeholder="Nom prénom..." id="ContactNom" type="text">          </div>
-
-
-          <div class="contactinput-group input-group2">
+<div class="contactinput-group input-group3">
             
-            <label for="ContactTelephone"></label><input name="data[Contact][telephone]" maxlength="255" placeholder="Numéro de téléphone..." id="ContactTelephone" type="text">          </div>
+            
+<label for="ContactNom"></label><input name="data[Contact][nom]" maxlength="120" required="required" placeholder="N° de téléphone" id="ContactNom" type="text">          </div>
+ <div class="contactinput-group input-group1">
+            <input name="data[Contact][email]" maxlength="150" required="required" placeholder="Nom de l'entreprise *." label="" id="ContactEmail" type="email">          </div>
+
+
+
+          
+			
+            
+          
 
            <div class="textarea-group">
             
