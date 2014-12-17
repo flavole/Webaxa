@@ -21,7 +21,6 @@
 }
 
 .book {
-
     margin-left: 5%;
     display: inline-block;
     width: 25%;
@@ -29,7 +28,6 @@
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
-
 }
 
 .wrap-experience {
@@ -306,7 +304,7 @@ padding-left:18%;
     background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;
     text-align: center;
     background: rgb(0, 170, 233);
-    width: 100%;
+    width: calc(100% - 4px);
     height: 356px;
     border-color: rgb(0, 170, 233);
     border-width: 2px;
@@ -846,6 +844,10 @@ footer p {
     text-align: justify;
     color: #3a393a;
 
+}
+
+.partage a {
+	text-decoration: none;
 }
 
 
