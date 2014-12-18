@@ -460,10 +460,19 @@ display: block;
 
 .notreentreprise {
 
-    width: 58%;
+    width: 52%;
     margin: 0 auto;
     padding-top: 4%;
 	
+}
+
+.webaxa {
+display: inline-block;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+	padding-left:180px;
+	
+
 }
 
 h2 {
