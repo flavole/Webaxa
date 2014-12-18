@@ -127,17 +127,6 @@ body {
 
 }
 
-article {
-
-    display: inline-block;
-    width: 13%;
-    text-decoration: none;
-    text-align: justify;
-    color: #3a393a;
-	
-
-}
-
 .gris{
 border-color:rgb(224,225,229);
 border-width:2px;
@@ -148,12 +137,24 @@ height:300px;
 
 }
 
+article {
+
+    display: inline-block;
+    width: 20%;
+    text-decoration: none;
+    text-align: justify;
+    color: #3a393a;
+	
+
+}
+
+
 
 aside {
 
     margin-left: 5%;
     display: inline-block;
-    width: 13%;
+        width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -163,7 +164,7 @@ aside {
 .bloc {
     margin-left: 5%;
     display: inline-block;
-    width: 13%;
+        width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -173,7 +174,7 @@ aside {
 .bloc2 {
     margin-left: 5%;
     display: inline-block;
-    width: 13%;
+        width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -182,7 +183,7 @@ aside {
 
 .global {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     background: rgb(250, 250, 250);
     width: calc(100% - 2px);
     height: 490px;
@@ -190,18 +191,23 @@ aside {
 
 }
 
-.services h2 {
+.contening{
+width: 58%;
+margin: 0 auto;
+}
+
+h5{
     
-    padding-left:130px;
-   
-    
-color: #ECEBEB;
-  font-family:"Myriad Pro";
-   font-size:15px;
+   color:rgb(0,23,51);
+  font-family:"Lucida Sans";
+   font-size: 1.5em;
    font-style:italic;
-   line-height:120%;
+   padding-bottom:20px;
+   
 
 }
+
+
 
 .contour{
 background:rgb(250,250,250);
@@ -461,6 +467,7 @@ display: block;
 }
 
 h2 {
+display: inline-block;
     font-family: "Myriad Pro";
     font-size: 33px;
     font-weight: bold;
@@ -470,11 +477,14 @@ h2 {
 }
 
 h4 {
+padding-left:20px;
     font-family: "Myriad Pro";
     font-size: 23px;
     line-height: 120%;
     color: rgb(3, 21, 31);
-    text-align: left;
+    text-align: right;
+	display: inline-block;
+	
 	
 }
 
