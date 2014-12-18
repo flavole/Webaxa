@@ -733,8 +733,9 @@ footer p {
 #logofooter{
 float:left;
 display: inline-block;
- margin-top: 60px;
- padding-right:100px;
+ margin-top: 10px;
+ margin-right:13%;
+ 
 }
 
 .conteneur {
@@ -742,22 +743,23 @@ display: inline-block;
     width: 58%;
     height: 223px;
     margin: 0 auto;
+	padding-top:50px;
 }
 
 .adresse {
     display: inline-block;
-    width: 26%;
+    width: 15%;
     text-decoration: none;
     color: #3a393a;
-    margin-top: 50px;
-	padding-left:50px;
+	margin-right:11%;
+    
 	
 	
 }
 
 .navi {
     background: rgb(0, 10, 17);
-    width: 18%;
+    width: 8%;
     list-style: none;
     text-align: center;
     padding-top: 20px;
@@ -767,8 +769,9 @@ display: inline-block;
     text-align: justify;
     color: #3a393a;
     vertical-align: top;
-    margin-top: 50px;
-    padding-top: 0;
+   	padding-top: 0;
+	 margin-right:13%;
+	
 	
 
 }
@@ -789,15 +792,13 @@ display: inline-block;
 }
 
 .partage {
-
-    margin-top: 50px;
+    vertical-align: top;
     background: rgb(0, 10, 17);
-    float: right;
     display: inline-block;
     width: 20%;
     text-decoration: none;
-    text-align: justify;
     color: #3a393a;
+	line-height: 120%;
 
 }
 
