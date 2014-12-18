@@ -765,8 +765,9 @@ display: inline-block;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
-    padding-top: 10px;
-    margin-right: 350px;
+    vertical-align: top;
+    margin-top: 50px;
+    padding-top: 0;
 
 }
 
@@ -787,8 +788,7 @@ display: inline-block;
 
 .partage {
 
-    margin-top: -150px;
-    
+    margin-top: 50px;
     background: rgb(0, 10, 17);
     float: right;
     display: inline-block;
