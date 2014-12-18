@@ -750,6 +750,7 @@ display: inline-block;
     text-decoration: none;
     color: #3a393a;
     margin-top: 50px;
+	padding-left:50px;
 	
 	
 }
@@ -768,13 +769,14 @@ display: inline-block;
     vertical-align: top;
     margin-top: 50px;
     padding-top: 0;
+	
 
 }
 
 .navi li {
     text-align: center;
     list-style: none;
-    padding: 0px 40px;
+    
 
 
 }
