@@ -787,8 +787,8 @@ display: inline-block;
 
 .partage {
 
-    margin-top: -100px;
-    margin-right: 50px;
+    margin-top: -150px;
+    
     background: rgb(0, 10, 17);
     float: right;
     display: inline-block;
@@ -801,8 +801,12 @@ display: inline-block;
 
 .partage a {
 text-decoration: none;
-+}
+padding-left:20px;
+}
 
+.partage p{
+padding-left:30px;
+}
 
 
 
