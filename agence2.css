@@ -1,4 +1,11 @@
-
+@font-face { /* Définition d'une nouvelle police nommée Raleway */
+    font-family: 'Raleway-Regular';
+    src: url('Polices/Raleway-Regular.eot');
+    src: url('Polices/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Raleway-Regular.woff') format('woff'),
+         url('Polices/Raleway-Regular.ttf') format('truetype'),
+         url('Polices/Raleway-Regular.svg#LearningCurveProRegular') format('svg');
+}
 
 /* header */
 
@@ -57,7 +64,7 @@ nav li {
     display: inline;
     margin-right:10px;
     padding: 0px 5px;
-    font-family: "Lucida Sans", Calibri, Tahoma, sans serif;
+    font-family: "Lucida Sans";
     line-height: 120%;
     text-align: left;
     margin-top: 0px;
@@ -78,10 +85,12 @@ nav a:hover {
 
 /* Body */
 
+
+
 h3 {
     text-align: center;
     height: 30px;
-    color: #3a393a;
+    color:#00B6EB;
     width: 80%;
     margin-left: 10%;
     padding-left: 0px;
@@ -105,6 +114,21 @@ height:517px;
 
 }
 
+.site-speech{
+padding-top:80px;
+padding-bottom:80px;
+font-family : "Myriad Pro";
+    font-size: 20px;
+    color: #135D79;
+text-align: center;
+    height: 30px;
+ width: 80%;
+    margin-left: 10%;
+    padding-left: 0px;
+}
+
+
+}
 
 
 body {
@@ -193,12 +217,18 @@ vertical-align: top;
 
 .global {
     text-align: center;
-    padding-top: 20px;
+    
     background: rgb(250, 250, 250);
     width: calc(100% - 2px);
-    height: 620px;
-	
+    height: 940px;
+	padding-bottom:100px;
 
+}
+.separation{
+background: none repeat scroll 0% 0% #00AAE9;
+width: calc(100% - 4px);
+height: 20px;
+border-color: #00AAE9;
 }
 
 .contening{
@@ -209,7 +239,7 @@ margin: 0 auto;
 h5{
     
    color:rgb(0,23,51);
-  font-family:"Lucida Sans", Calibri, Tahoma, sans serif;
+  font-family:"Lucida Sans";
    font-size: 1.5em;
    font-style:italic;
    padding-bottom:20px;
@@ -240,28 +270,29 @@ border-radius:100%;
 
 
 #ref{
-padding-left:20%;
+padding-left:15%;
 }
 
 #site2{
 padding-top:5%;
-padding-left:22%;
+padding-left:18%;
 }
 
 #tablette{
 padding-top:6%;
-padding-left:22%;
+padding-left:18%;
 }
 
 #print{
-padding-left:22%;
+padding-left:18%;
 }
 
 .sep {
-    color: #b3adb8;
+    color: #E5E7EA;
     text-align: center;
-    padding-top: 7%;
-    padding-bottom: 6%;
+	font-weight: bold;
+    
+    padding-bottom: 4%;
 
 }
 
@@ -278,7 +309,7 @@ padding-left:22%;
     text-align: center;
     background: rgb(0, 170, 233);
     width: calc(100% - 4px);
-    height: 356px;
+    height: 200px;
     border-color: rgb(0, 170, 233);
     border-width: 2px;
     border-style: solid;
@@ -286,28 +317,15 @@ padding-left:22%;
 }
 
 p {
-    font-family : "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
+    font-family : "Myriad Pro";
     font-size: 12px;
-    color: #000000 
-    
     line-height: 135%;
     text-align: justify;
+	color:#00132B;
 
 }
 
-#experience h2 {
-    font-size: 1.5em;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 30px 300px;
-    color: #3a393a;
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
 
-    padding-bottom: 50px;
-
-}
 
 #projets-recents h2 {
     font-size: 1.5em;
@@ -318,13 +336,13 @@ p {
     display: block;
     padding: 30px 80px;
     color: #ECEBEB;
-   font-family:"Lucida Sans", Calibri, Tahoma, sans serif;
+   font-family:"Lucida Sans";
    background: url('images/noeud.png') no-repeat scroll left center, url('images/noeud.png') no-repeat scroll right center transparent;
 
 }
 
 .populaire {
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
+    font-family: Arial;
 }
 
 #projets-recents > ul {
@@ -332,7 +350,7 @@ p {
     padding-bottom: 1em;
     padding-top: 0px;
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 100px;
 	
 
 }
@@ -342,7 +360,7 @@ p {
     display: block;
     float: left;
     height: auto;
-    margin-right: 80px;
+    margin-right: 130px;
     list-style: none outside none;
     z-index: 1;
     background: url('../images/layout/ombre-projets-recents.png') no-repeat scroll center bottom transparent;
@@ -446,7 +464,7 @@ height: 100%;
 
 .bouton_rouge {
     color: #e292a0;
-    margin: 15% auto;
+    margin: 28px auto;
     display: block;
 	cursor: pointer;
 	
@@ -455,14 +473,11 @@ height: 100%;
 
 .bouton_rouge2 {
     color: #e292a0;
-    margin: 16% auto;
+    margin: 28px auto;
 display: block;
 	cursor: pointer;
 
 }
-
-
-
 
 .bouton_rouge :hover{
 
@@ -477,27 +492,28 @@ background: background-image: url('images/ensavoirplushover.gif') no-repeat;
 
     width: 58%;
     margin: 0 auto;
-    padding-top: 5%;
-	padding-bottom:5%;
+    padding-top: 4%;
 	
 }
 
 .webaxa {
 display: inline-block;
-font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
-padding-left:19%;
+
+    font-family: "Myriad Pro";
+    font-size: 18px;
+	padding-left:12%;
 	
 
 }
 .webaxa p {
-font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
-    font-size: 19px;}
+font-family: "Myriad Pro";
+    font-size: 18px;}
 
 
 h2 {
 display: inline-block;
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
-    font-size: 37px;
+    font-family: "Myriad Pro";
+    font-size: 33px;
     font-weight: bold;
     line-height: 120%;
     color: rgb(1, 25, 49);
@@ -505,12 +521,11 @@ display: inline-block;
 }
 
 h4 {
-padding-left:2.5%;
-    font-family: "Myriad Pro", Verdana, Verdana,"Trebuchet MS", sans-serif;
-    font-size: 27px;
-	font-weight: lighter;
+padding-left:2%;
+    font-family: "Myriad Pro";
+    font-size: 23px;
     line-height: 120%;
-	color: rgb(3, 21, 31);
+    color: rgb(3, 21, 31);
     text-align: right;
 	display: inline-block;
 	
@@ -520,7 +535,7 @@ padding-left:2.5%;
 .about {
     background: #ffffff;
     width: 100%;
-    height: 450px;
+    height: 278px;
 }
 
 /*contact*/
@@ -540,7 +555,7 @@ padding-right:2%;
 
     background: rgb(21, 93, 122);
     width: 100%;
-    height: 500px;
+    height: 418px;
     
 }
 
@@ -555,7 +570,7 @@ padding-right:2%;
 }
 
 #me-contacter h1 {
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
+    font-family: "Myriad Pro";
     font-size: 33px;
     line-height: 120%;
     color: rgb(214, 214, 214);
@@ -573,20 +588,20 @@ padding-right:2%;
 }
 
 .droite {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 68%;
     height: 237px;
     float: right;
 }
 
 .gauche {
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
+    font-family: "Myriad Pro";
     font-size: 17px;
     line-height: 120%;
     text-align: left;
     float: left;
     width: 28%;
-	margin-top:70px;
+	margin-top:30px;
 }
 
 .align-center {
@@ -636,7 +651,7 @@ padding-right:2%;
 #page-contact input,
 #page-contact textarea {
     color: #6B6B6B !important;
-    font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     font-style: italic;
     border: none;
     width: 95%;
@@ -872,7 +887,7 @@ padding-left:5%;
 }
 
 .follow {
-padding-left:0%;}
+padding-left:12%;}
 
 
 
