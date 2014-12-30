@@ -395,9 +395,18 @@ BAL 98<br/>
 <script src="js3/ jquery-latest.min.js"></script>
 <script src="js3/ unslider.min.js"></script>
 
+<script>
+$('.banner').unslider({
+fluid:true,
+dots:true,
+ speed: 500,               
+ delay: 3000,             
+ complete: function() {
+  launchCSSanim();
+ },  
+});
 
-
-
+</script>
 		
 	</footer>
 
