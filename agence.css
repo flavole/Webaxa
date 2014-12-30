@@ -273,12 +273,13 @@ padding-left:22%;
 
 }
 
+
 #projets-recents {
     background: url('') no-repeat scroll center bottom transparent no-repeat scroll right center transparent;
     text-align: center;
     background: rgb(0, 170, 233);
     width: calc(100% - 4px);
-    height: 356px;
+    height: 400px;
     border-color: rgb(0, 170, 233);
     border-width: 2px;
     border-style: solid;
@@ -288,7 +289,7 @@ padding-left:22%;
 p {
     font-family : "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
     font-size: 12px;
-    color: #000000 
+    color: #000000 ;
     
     line-height: 135%;
     text-align: justify;
@@ -327,121 +328,33 @@ p {
     font-family: "Myriad Pro", Verdana, "Trebuchet MS", sans-serif;
 }
 
-#projets-recents > ul {
-    overflow: hidden;
-    padding-bottom: 1em;
-    padding-top: 0px;
-    display: inline-block;
-    margin-left: 180px;
-	
 
+
+
+
+
+#star  img{
+  -webkit-transition:-webkit-transform 1.9s; 
+  -moz-transition:-moz-transform 1.9s;       
+  -o-transition:-o-transform 1.9s;          
+  -ms-transition:-ms-transform 1.9s;        
+  transition:transform 1.9s;
+  float:left;
+
+ 
+    
+    
 }
 
-#projets-recents > ul > li {
-    position: relative;
-    display: block;
-    float: left;
-    height: auto;
-    margin-right: 80px;
-    list-style: none outside none;
-    z-index: 1;
-    background: url('../images/layout/ombre-projets-recents.png') no-repeat scroll center bottom transparent;
-
-}
-
-#projets-recents > ul > li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-#projets-recents > ul > li .description {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  width: 100%;
-
-height: 100%;
-    z-index: 2;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.4s;
-
-}
-
-#projets-recents > ul > li .description, #portfolio-list > ul > li .description {
-    color: #FFF;
-}
-
-#projets-recents > ul > li .description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 140px;
-    height: 140px;
-    z-index: 2;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-    -webkit-transition-duration: .4s;
-    -moz-transition-duration: .4s;
-    -o-transition-duration: .4s;
-    transition-duration: .4s
-}
-
-#projets-recents > ul > li .description a {
-    display: block;
-    width: 100%;
-    height: 100%
-}
-
-#projets-recents > ul > li .description .text {
-    padding: 15px;
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: none
-}
-
-#projets-recents > ul > li .description .text a {
-    color: white;
-    text-decoration: none
-}
-
-#projets-recents > ul > li .description .text h4 a {
-    color: white !important;
-    text-decoration: none !important
-}
-
-#projets-recents > ul > li .description .text p {
-    font-style: italic;
-    color: white !important;
-    text-decoration: none !important
-}
-
-#projets-recents > ul > li .description .text ul.tags {
-    list-style: none;
-    font-style: italic;
-    margin-top: 1em
-}
-
-#projets-recents > ul > li .description .text ul.tags li a {
-    color: #d29ebe !important;
-}
-
-#projets-recents > ul > li:hover .description {
-
-    background: rgba(0, 0, 0, 0.75)
-}
-
-#projets-recents > ul > li:hover .description .text {
-    display: block
+#star  img:hover{
+  -webkit-transform:rotate(540deg);
+  -moz-transform:rotate(540deg);
+  -o-transform:rotate(540deg);
+  -ms-transform:rotate(540deg); 
+  transform:rotate(540deg);
+  
+    
+    
 }
 
 .bouton_rouge {
@@ -477,8 +390,8 @@ background: background-image: url('images/ensavoirplushover.gif') no-repeat;
 
     width: 58%;
     margin: 0 auto;
-    padding-top: 5%;
-	padding-bottom:5%;
+    padding-top: 3%;
+	padding-bottom:3%;
 	
 }
 
@@ -520,7 +433,7 @@ padding-left:2.5%;
 .about {
     background: #ffffff;
     width: 100%;
-    height: 450px;
+    height: 400px;
 }
 
 /*contact*/
