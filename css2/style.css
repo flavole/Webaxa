@@ -1,5 +1,5 @@
 .projets-inner{
-    width: 51%;
+    width: 52%;
     height: 200px;
     margin: 0px auto;
     display: table;
@@ -8,6 +8,12 @@
     display: table-cell;
     vertical-align: middle;
 }
+
+.star2{
+    display: table-cell;
+    vertical-align: middle;
+	
+}
 .da-thumbs {
     list-style: none;
     width: 100%;
@@ -15,7 +21,7 @@
 }
 .da-thumbs li {
 	float: left;
-	margin-right: 8%;
+	margin-right: 6%;
 	margin-left: 2%;
 	background: #fff;
 	padding: 8px;

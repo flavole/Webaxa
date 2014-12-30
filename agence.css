@@ -71,9 +71,13 @@ nav a {
 
 }
 
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
+		
 nav a:hover {
     color: #00AAE9;
-    border-bottom: 1px solid #00AAE9;
+    
 }
 
 /* Body */
@@ -115,6 +119,85 @@ body {
 	
 }
 
+/* slide */
+
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3);
+    background: none repeat scroll 0% 0% #5B4D3D;
+    box-shadow: 01px 2px rgba(0, 0, 0, 0.25); }
+	
+	.banner ul li {
+    display: block;
+    float: left;
+    width: 33%;
+    padding: 160px 0px 110px;
+    min-height: 350px;
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1) inset;
+}
+.banner ul {
+    list-style: outside none none;
+}
+
+.banner h1, .banner h2 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFF;
+}
+h1, h2, h3, h4, b {
+    font-weight: 300;
+    font-family: bree-web,Bree,sans-serif;
+}
+
+.banner .btn {
+    display: inline-block;
+    margin: 25px 0px 0px;
+    padding: 9px 22px 7px;
+    clear: both;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.banner .dots {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+}
+
+.banner .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 4px;
+    text-indent: -999em;
+    border: 2px solid #FFF;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: #000 0.5s ease 0s, opacity 0.5s ease 0s;
+}
+
+banner .dots li.active {
+    background: none repeat scroll 0% 0% #FFF;
+    opacity: 1;
+}
+
+	
+	/*fin slide*/
+	
+	
 #site {
     display: inline-block;
     text-decoration: none;
@@ -227,7 +310,7 @@ border-style:solid;
 border-radius:100%;
 }
 
-.banner{
+.bannerre{
 margin:auto;
 padding: 9%;
 width:25%;
@@ -347,6 +430,30 @@ p {
 }
 
 #star  img:hover{
+  -webkit-transform:rotate(540deg);
+  -moz-transform:rotate(540deg);
+  -o-transform:rotate(540deg);
+  -ms-transform:rotate(540deg); 
+  transform:rotate(540deg);
+  
+    
+    
+}
+
+
+#star2  img{
+  -webkit-transition:-webkit-transform 1.9s; 
+  -moz-transition:-moz-transform 1.9s;       
+  -o-transition:-o-transform 1.9s;          
+  -ms-transition:-ms-transform 1.9s;        
+  transition:transform 1.9s;
+
+ 
+    
+    
+}
+
+#star2  img:hover{
   -webkit-transform:rotate(540deg);
   -moz-transform:rotate(540deg);
   -o-transform:rotate(540deg);
