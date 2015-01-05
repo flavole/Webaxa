@@ -1,4 +1,3 @@
-/* header */
 
 header {
     width: 100%;
@@ -164,24 +163,46 @@ h1, h2, h3, h4, b {
 
 .banner .btn {
     display: inline-block;
-    margin: 25px 0px 0px;
+    margin: 10.5% 0px 0px;
     padding: 9px 22px 7px;
     clear: both;
     color: #FFF;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     border: 2px solid rgba(255, 255, 255, 0.4);
     border-radius: 5px;
+	 font-family:raleway;
 	
 }
+
+.banner .btn:hover {
+ font-family:raleway;
+    display: inline-block;
+    margin: 10.5% 0px 0px;
+    padding: 9px 22px 7px;
+    clear: both;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+	background: #fcfdfe;
+  text-decoration: none;
+  color:#155d7a;
+  font-weight:bold;
+	
+}
+
 
 .banner .dots {
     position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 20px;
+    bottom: 0px;
 }
 
 .banner .dots li {
@@ -197,7 +218,7 @@ h1, h2, h3, h4, b {
     transition: #000 0.5s ease 0s, opacity 0.5s ease 0s;
 }
 
-banner .dots li.active {
+.banner .dots li.active {
     background: none repeat scroll 0% 0% #FFF;
     opacity: 1;
 }
@@ -217,7 +238,7 @@ banner .dots li.active {
     border-width: 2px;
     border-style: solid;
     border-radius: 22%;
-    padding: 5%;
+    padding: 8% 3% 8% 3%;
     height: 300px;
 
 }
@@ -225,7 +246,7 @@ banner .dots li.active {
 article {
     vertical-align: top;
     display: inline-block;
-    width: 21%;
+    width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -234,9 +255,9 @@ article {
 
 aside {
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 4%;
     display: inline-block;
-    width: 21%;
+    width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -245,9 +266,9 @@ aside {
 
 .bloc {
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 4%;
     display: inline-block;
-    width: 21%;
+    width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -256,7 +277,7 @@ aside {
 
 .blocsite {
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 4%;
     display: inline-block;
     width: 23.5%;
     text-decoration: none;
@@ -267,9 +288,9 @@ aside {
 
 .bloc2 {
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 4%;
     display: inline-block;
-    width: 21%;
+    width: 20%;
     text-decoration: none;
     text-align: justify;
     color: #3a393a;
@@ -310,8 +331,8 @@ h5 {
 
 .bannerre {
     margin: auto;
-    padding: 9%;
-    width: 25%;
+    padding: 7%;
+    width: 20%;
     background: rgb(250, 250, 250);
     border-color: rgb(224, 225, 229);
     border-width: 2px;
@@ -320,17 +341,17 @@ h5 {
 }
 
 #ref {
-    padding-left: 20%;
+    padding-left: 17%;
 }
 
 #site2 {
     padding-top: 5%;
-    padding-left: 22%;
+    padding-left: 17%;
 }
 
 #tablette {
     padding-top: 6%;
-    padding-left: 22%;
+    padding-left: 17%;
 }
 
 #print {
@@ -446,7 +467,7 @@ p {
 
 .bouton_rouge {
     color: #e292a0;
-    margin: 15% auto;
+    margin: 23% auto;
     display: block;
     cursor: pointer;
 
@@ -454,7 +475,7 @@ p {
 
 .bouton_rouge2 {
     color: #e292a0;
-    margin: 16% auto;
+    margin: 23.5% auto;
     display: block;
     cursor: pointer;
 
@@ -513,7 +534,7 @@ h4 {
 .about {
     background: #ffffff;
     width: 100%;
-    height: 400px;
+    height: 40%;
 }
 
 /*contact*/
