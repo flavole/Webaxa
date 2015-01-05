@@ -1,8 +1,10 @@
 .projets-inner{
-    width: 58%;
+    width: 58.5%;
     height: 200px;
     margin: 0px auto;
     display: table;
+	
+	
 
 
 }
@@ -18,9 +20,10 @@
 }
 .da-thumbs {
     list-style: none;
-    width: 80%;
+    width: 79%;
     height: 200px;
 	margin : 0 auto;
+	padding-left: 0px;
 	}
 	
 .da-thumbs li {
