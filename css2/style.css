@@ -1,8 +1,10 @@
 .projets-inner{
-    width: 65%;
+    width: 58%;
     height: 200px;
     margin: 0px auto;
     display: table;
+
+
 }
 .star{
     display: table-cell;
@@ -16,23 +18,20 @@
 }
 .da-thumbs {
     list-style: none;
-    width: 71%;
+    width: 80%;
     height: 200px;
-}
+	margin : 0 auto;
+	}
+	
 .da-thumbs li {
 	float: left;
+	
 	margin-right: 6%;
 	margin-left: 2%;
 	background: #fff;
 	padding: 1%;
 	position: relative;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-ul#da-thumbs{
-margin:0;
-padding:0;
-
 }
 
 li.last{
