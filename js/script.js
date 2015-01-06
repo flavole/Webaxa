@@ -4,7 +4,7 @@ function launchCSSanim() {
     console.log("anim launched");
 }
 
-$('.banner').unslider({
+$('.banner2').unslider({
     fluid: true,
     dots: true,
     speed: 500,

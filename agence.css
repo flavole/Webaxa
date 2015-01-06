@@ -68,15 +68,30 @@ nav a {
 .banner {
     position: relative;
     overflow: auto;
+	box-sizing: border-box;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
 }
 
 .banner li {
     list-style: none;
 }
 
-.banner ul li {
+
+	.banner ul li {
+    display: block;
     float: left;
+    width: 33%;
+    padding: 160px 0px 110px;
+    min-height: 350px;
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1) inset;
+	
 }
+
 
 nav a:hover {
     color: #00AAE9;
@@ -122,6 +137,30 @@ body {
 
 /* slide */
 
+.banner2 {
+    position: relative;
+    overflow: auto;
+    width: 100% !important;
+}
+
+.banner2 li {
+    list-style: none;
+}
+
+.banner2 ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.banner2 ul li {
+    float: left;
+}
+
+.banner2 ul li img {
+    width: 100%
+}
+
 .banner {
     position: relative;
     width: 100%;
@@ -142,7 +181,7 @@ body {
     padding: 75px 0px 110px;
     min-height: 350px;
     box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1) inset;
-	
+
 }
 
 .banner ul {
