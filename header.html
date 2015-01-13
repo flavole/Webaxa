@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="agence.css"/>
     <link href="css/lightbox.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css2/style.css"/>
+    <link rel="stylesheet" href="déroulant.css"/>
     <script src="js2/modernizr.custom.97074.js"></script>
     <noscript>
         <link rel="stylesheet" type="text/css" href="css2/noJS.css"/>
@@ -42,10 +43,17 @@ $('#btn_up').fadeIn();
 
                 <nav>
 
-                    <ul>
+                    <ul id="menu-deroulant">
                         <li><a href="index.php">Home</a></li>
 						
-                        <li><a href="#service">Service</a></li>
+                        <li><a href="#service">Service</a>
+                            <ul >
+                                <li ><a href="siteinternet.php">Site internet</a></li>
+                                <li ><a href="responsive.php">Responsive</a></li>
+                                <li ><a href="referencement.php">Référencement</a></li>
+                                <li ><a href="print.php">Print</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#reussite">Nos réussites</a></li>
                         <li><a href="#entreprise">Notre entreprise</a></li>
                         <li><a href="#contact">Contacts</a></li>
