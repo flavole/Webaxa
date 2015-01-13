@@ -1,0 +1,104 @@
+nav {
+
+    list-style: none;
+    background: rgb(17, 17, 17);
+    text-align: center;
+    float: right;
+    margin: 0;
+
+}
+
+
+
+#logo {
+    float: left;
+
+}
+
+#banniere_image {
+    height: 80px;
+    width: 58%;
+    margin: 0 auto;
+}
+
+#bloc_page {
+    background: rgb(17, 17, 17);
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    background: rgb(17, 17, 17);
+    margin: 0 auto;
+}
+
+#menu-demo2, #menu-demo2 ul{
+margin:0;
+text-align:center;
+list-style-type: none;
+padding-top: 20px;
+}
+
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+background: rgb(17, 17, 17);
+margin-right: 10px;
+    padding: 0px 5px;
+    font-family: "Lucida Sans", Calibri, Tahoma, sans serif;
+    line-height: 120%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:15em;
+}
+
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:0px 40px;
+font-size: 16px;
+color: #EDEDED;
+text-decoration: none;
+
+}
+
+
+
+#menu-demo2 ul a{
+padding:8px 0;
+color: #00AAE9;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+color: #00AAE9;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+
+color: #00AAE9;
+}
