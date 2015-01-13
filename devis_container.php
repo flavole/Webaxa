@@ -1,3 +1,5 @@
+
+ <meta charset="utf-8"/>
 <script type="text/javascript" src="scripts/menu.js"></script>
 <link type="text/css" rel="stylesheet" href="lightbox-form.css">
 <script src="lightbox-form.js" type="text/javascript"></script>

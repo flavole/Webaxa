@@ -1,4 +1,5 @@
 
+
 header {
     width: 100%;
     background: rgb(17, 17, 17);
@@ -99,6 +100,16 @@ nav a:hover {
 }
 
 /* Body */
+
+/* Bouton retour vers le haut */
+#btn_up
+{
+position: fixed;
+bottom: 15px;
+right: 25px;
+cursor: pointer;
+
+}
 
 h3 {
     text-align: center;

@@ -16,47 +16,176 @@
 
 #box 
 {
-	display: none;
+display: none;
 	position: absolute;
 	top: 15%;
 	left: 15%;
 	right: 15%;
-	height: 70%;
+	height: 1000px;
+	width:50%;
 	padding: 48px;
 	margin:0;
 	border: 1px solid black;
 	background-color: white;
 	z-index:101;
 	overflow: none;
-	-moz-border-radius: 20px 20px 20px 20px; 
-        -webkit-border-radius: 20px 20px 20px 20px; 
-        border-radius: 20px 20px 20px 20px;
-        -webkit-border-top-left-radius: 20px; /* pour Chrome */ 
-        -webkit-border-top-right-radius: 20px; /* pour Chrome */
-        -webkit-border-bottom-left-radius: 20px; /* pour Chrome */ 
-        -webkit-border-bottom-right-radius: 20px; /* pour Chrome */	
+	
 }
+
+.box{
+position:absolute;
+	float:left;
+	top:0;
+	left:0;
+	width:100%;
+padding-left: 4%;
+padding-top:10%;
+}
+
+input[type="texts"] {
+
+ background: none repeat scroll 0% 0% #FFF;
+display: inline-block;
+width: 450px;
+border: 1px solid #BDBDAE;
+padding: 10px 5px;
+margin-top: 2%;
+border-radius: 4px;
+font-size: 14px;
+font-family: "myriad pro","Lucida Sans",Calibri,Tahoma,sans serif;
+
+}
+
+input[type="checkbox"] {
+
+margin-top:2%;
+font-size: 14px;
+font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+}
+
+#specificites{
+background: #ffffff;
+margin-top:2%;
+	margin-bottom:2%;
+   height: 150px;
+font-size: 0.8em;
+    display: inline-block;
+	width: 450px;
+    border:1px solid #BDBDAE;
+    padding: 10px 5px 10px ;
+    border-radius: 1px ;
+	margin-top:2%;
+    /* Firefox v1.0+ */
+    -moz-border-radius: 4px;
+    /* Safari v3.0+ and by Chrome v0.2+ */
+    -webkit-border-radius: 4px;
+    /* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+    border-radius: 4px;
+	
+	font-size: 14px;
+	font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+}
+
+
 
 #boxtitle
 {
 	position:absolute;
-	float:center;
+	float:left;
 	top:0;
 	left:0;
 	width:100%;
 	height:50px;
 	padding:0;
-	padding-top:5px;
-	margin:0;
-	border-bottom:5px solid #498fcd;
-	background-color: #00aae9;
-	color:white;
-	text-align:center;
-	-moz-border-radius: 20px 20px 0 0; 
-        -webkit-border-radius: 20px 20px 0 0; 
-        border-radius: 20px 20px 0 0;         
-        -webkit-border-top-left-radius: 20px; /* pour Chrome */ 
-        -webkit-border-top-right-radius: 20px; /* pour Chrome */ 
+	padding-top:3%;
+	padding-left: 4%;
+	margin-bottom:15%;
+		
+	
+	color:#00aae9;
+	font-size: 34px;
+	font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+	
+	
 }
 
+input[type="submit"] {
+background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+
+input[type="submit"]:hover {
+background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+input[type="button"] {
+background: #155D7A;
+  background-image: -webkit-linear-gradient(top, #155D7A, #155D7A);
+  background-image: -moz-linear-gradient(top, #155D7A, #155D7A);
+  background-image: -ms-linear-gradient(top, #155D7A, #155D7A);
+  background-image: -o-linear-gradient(top, #155D7A, #155D7A);
+  background-image: linear-gradient(to bottom, #155D7A, #155D7A);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.select{
+background: #ffffff;
+    font-size: 0.8em;
+    display: inline-block;
+	width: 464px;
+	
+	border:1px solid #BDBDAE;
+    padding: 10px 5px 10px ;
+    border-radius: 1px ;
+	margin-top:2%;
+    /* Firefox v1.0+ */
+    -moz-border-radius: 4px;
+    /* Safari v3.0+ and by Chrome v0.2+ */
+    -webkit-border-radius: 4px;
+    /* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+    border-radius: 4px;
+	
+	font-size: 14px;
+	font-family: "myriad pro", "Lucida Sans", Calibri, Tahoma, sans serif;
+
+}
+
+
+input[type="button"]:hover {
+background: #0b3242;
+  background-image: -webkit-linear-gradient(top, #0b3242, #0b3242);
+  background-image: -moz-linear-gradient(top, #0b3242, #0b3242);
+  background-image: -ms-linear-gradient(top, #0b3242, #0b3242);
+  background-image: -o-linear-gradient(top, #0b3242, #0b3242);
+  background-image: linear-gradient(to bottom, #0b3242, #0b3242);
+  text-decoration: none;
+}
 

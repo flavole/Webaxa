@@ -291,6 +291,16 @@ h5{
 
 }
 
+h6{
+    
+   color:black;
+  font-family:"myriad pro","Lucida Sans";
+   font-size: 18px;
+   
+   
+
+}
+
 
 
 .contour{
@@ -777,6 +787,8 @@ input[type="text"], input[type="button"], input[type="password"], input[type="em
     border-radius: 6px;
 
 }
+
+
 
 textarea {
     background: rgb(214, 214, 214);

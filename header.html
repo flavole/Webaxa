@@ -8,7 +8,24 @@
     <script src="js2/modernizr.custom.97074.js"></script>
     <noscript>
         <link rel="stylesheet" type="text/css" href="css2/noJS.css"/>
+		
     </noscript>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">
+$(function(){
+$('#btn_up').click(function() {
+$('html,body').animate({scrollTop: 0}, 'slow');
+});
+
+$(window).scroll(function(){
+if($(window).scrollTop()<350){
+$('#btn_up').fadeOut();
+}else{
+$('#btn_up').fadeIn();
+}
+});
+});
+</script>
 
 
 </head>
@@ -27,6 +44,7 @@
 
                     <ul>
                         <li><a href="index.php">Home</a></li>
+						
                         <li><a href="#service">Service</a></li>
                         <li><a href="#reussite">Nos réussites</a></li>
                         <li><a href="#entreprise">Notre entreprise</a></li>
